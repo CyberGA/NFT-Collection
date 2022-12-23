@@ -186,7 +186,7 @@ export default function Home() {
 
     if (presaleStarted && presaleEnded) {
       return (
-        <button className={styles.description} onClick={publicMint}>Public Mint 🚀</button>
+        <button className={styles.button} onClick={publicMint}>Public Mint 🚀</button>
       )
     }
   }
